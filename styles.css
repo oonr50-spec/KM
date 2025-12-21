@@ -121,5 +121,16 @@ body {
   border-radius: 8px;
   object-fit: cover;
 }
+.hero {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("images/work1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
 
 
