@@ -131,6 +131,15 @@ body {
   text-align: center;
   padding: 80px 20px;
 }
+.work-bg {
+  background-image: url("images/work1.jpg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 60px 20px;
+  color: white;
+}
 
 
 
