@@ -139,7 +139,22 @@ body {
 
   padding: 60px 20px;
   color: white;
+}.work-bg {
+  position: relative;
 }
+
+.work-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.work-bg * {
+  position: relative;
+  z-index: 1;
+}
+
 
 
 
