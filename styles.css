@@ -1,3 +1,8 @@
+body {
+  background-image: url("./images/work1.jpg.png");
+  background-size: cover;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -153,7 +158,8 @@ body {
 .work-bg * {
   position: relative;
   z-index: 1;
-}
+}background-image: url("./images/work1.jpg.png");
+
 
 
 
